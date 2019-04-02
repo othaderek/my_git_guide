@@ -1,0 +1,15 @@
+### --- HOW TO --- ###
+
+Objective: As a reminder to me and my forgetful ass, here are some of the basics of using git and github
+
+1. Create a repository.
+	a.) go to github and navigate to your repositories, create new
+	and copy the link to that repo.
+	b. In terminal, navigate to directory you wish to save repo in
+	type: git clone {link to your repo}
+
+2. Git add/push/commit
+	a.) After adding files and directories to repo type: git status
+	then add any changes by typing "git add ." or "git add {file name}"
+	b.) Then type "git commit -m "add your message about your commit here"" Note: the -m part of the commit is important because it helos you keep track of your progress and also leaves notes to memebers of your team about changes that were made.
+	c.) After all of this type "git push origin master"
